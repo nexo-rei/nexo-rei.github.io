@@ -198,26 +198,33 @@ html {
 }
 
 :root {
-  --bg: #ffffff;
-  --text: #000000;
-  --border: #000000;
-  --primary: #66d9ef;
-  --secondary: #ffd93d;
-  --accent: #a8e6cf;
-  --pink: #ff6b9d;
-  --white: #FFFFFF;
-  --yellow: #ffd93d;
-  --cyan: #66d9ef;
+  --bg: #0a0a0a;
+  --text: #ffffff;
+  --border: #FF0000;
+  --primary: #FF0000;
+  --secondary: #FF0000;
+  --accent: #8B0000;
+  --pink: #FF0000;
+  --white: #1a1a1a;
+  --yellow: #FF0000;
+  --cyan: #ff4444;
   --shadow-offset: 4px;
   --border-width: 3px;
 }
 
-body[data-theme="dark"] {
-  --bg: #1a1a1a;
+body, body[data-theme="dark"], body[data-theme="light"] {
+  --bg: #0a0a0a;
   --text: #ffffff;
-  --border: #a8e6cf;
-  --white: #2a2a2a;
-  background: #0a0a0a;
+  --border: #FF0000;
+  --primary: #FF0000;
+  --secondary: #FF0000;
+  --accent: #8B0000;
+  --pink: #FF0000;
+  --white: #1a1a1a;
+  --yellow: #FF0000;
+  --cyan: #ff4444;
+  background: #000000;
+  color: #ffffff;
 }
 
 /* Progress Bar */
